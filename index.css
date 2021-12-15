@@ -1,10 +1,10 @@
 body {
-  background-image: url(background.jpg);
+  background-image: url(ceuNoturno.jpg);
   background-size: cover;
-
   height: 100vh;
   padding: 0;
   margin: 0;
+  font-family: 'Mukta', sans-serif;
 }
 
 .conteudo {
@@ -12,6 +12,9 @@ body {
   background-color: #ffffff49;
   text-align: center;
   font-size: 25px;
+  padding: 35px;
+}
+.escolha {
 }
 
 footer {
@@ -25,5 +28,27 @@ footer {
 }
 
 #imagemApi {
-  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  display: block;
+  margin-top: 150px;
+}
+
+#infApi {
+  color: #ffffff;
+}
+p {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+input {
+  border-radius: 10px;
+  background-color: #ffffff73;
+}
+button {
+  border-radius: 10px;
+  background-color: #ffffff86;
+  font-size: 15px;
 }

@@ -6,22 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>APOD</title>
   </head>
   <body>
     <div class="conteudo">
       <main>
         Bem vindo ao APOD, aqui você viaja pelo universo atráves de um clique!
-        Escolha a data e veja imagens do universo com imagens da NASA
+        Escolha a data e veja imagens disponibilizadas pela NASA
       </main>
-      <span>escolha um dia</span>
+      <span class="escolha">Escolha o dia</span>
       <input type="date" name="data" id="data" />
       <button type="button" name="botão" id="botão" onclick="getApi()">
         Procurar
       </button>
     </div>
     <div id="infoApi"></div>
-    <footer class="footer">Copyrigth Fernanda Soares T[10]</footer>
+    <footer class="footer">© Copyrigth Fernanda Soares T[10]</footer>
     <script src="index.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
